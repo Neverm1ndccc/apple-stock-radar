@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "本地主窗口与菜单栏卡片，仅授予通知和登录启动能力",
+  "windows": ["main", "tray"],
+  "permissions": ["core:default", "notification:default", "autostart:default"]
+}
